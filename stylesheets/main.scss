@@ -33,3 +33,25 @@
 // 7. Themes
 @import
   'themes/default';
+
+$main-logo: url('../img/mainLogo.png');
+
+.upper-container {
+  background-image: url(../img/hero-home.png);
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.main-logo {
+  float: left;
+}
+
+.navBar li {
+  float: right;
+}
